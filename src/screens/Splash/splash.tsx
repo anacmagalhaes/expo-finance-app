@@ -5,7 +5,7 @@ import { Text, View } from "react-native"
 const SplashScreen = () => {
 
     const handleLogin = () => {
-        router.replace('/(app)/login')
+        router.replace('/(auth)/login')
     }
 
     return (
