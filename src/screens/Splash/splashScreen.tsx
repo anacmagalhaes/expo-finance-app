@@ -1,4 +1,4 @@
-import { ButtonComponent } from "@/components/ui/ButtonComponent"
+import { ButtonInitialComponents } from "@/components/ui/ButtonInitialComponent"
 import { router } from "expo-router"
 import { Text, View } from "react-native"
 
@@ -13,7 +13,7 @@ const SplashScreen = () => {
             <Text className="text-[#F3F4F6] font-bold text-[30px]">
                 Bem-Vindo(a)!
             </Text>
-            <ButtonComponent text="Começar" onPress={handleLogin}/>
+            <ButtonInitialComponents text="Começar" onPress={handleLogin}/>
         </View>
     )
 }

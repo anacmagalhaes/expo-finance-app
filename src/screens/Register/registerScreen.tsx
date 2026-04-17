@@ -1,4 +1,4 @@
-import { ButtonComponent } from "@/components/ui/ButtonComponent";
+import { ButtonInitialComponents } from "@/components/ui/ButtonInitialComponent";
 import { CheckboxComponent } from "@/components/ui/CheckboxComponent";
 import { InputComponent } from "@/components/ui/InputComponent";
 import { Link } from "expo-router";
@@ -24,7 +24,7 @@ const RegisterScreen = () => {
                             <Text className="text-[#5A53BF] text-[12px]">Termos e Condições.</Text>
                         </Text>
                     </View>
-                    <ButtonComponent text="Cadastrar" />
+                    <ButtonInitialComponents text="Cadastrar" />
                     <Text className="text-[#F3F4F6] text-[12px]"> Já tem conta? {""}
                         <Link href="/(auth)/login">
                             <Text className="text-[#5A53BF] text-[12px]">Entre aqui.</Text>
