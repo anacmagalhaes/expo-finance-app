@@ -1,4 +1,4 @@
-import SplashScreen from "@/screens/Splash/splashScreen"
+import SplashScreen from "@/screens/Splash/SplashScreen"
 
 const Route = () => {
     return (

@@ -1,4 +1,4 @@
-import DashboardScreen from "@/screens/Dashboard/dashboardScreen"
+import DashboardScreen from "@/screens/Dashboard/DashboardScreen"
 
 const RouteDashboard = () => {
     return (

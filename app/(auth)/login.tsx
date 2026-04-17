@@ -1,4 +1,4 @@
-import LoginScreen from "@/screens/Login/loginScreen"
+import LoginScreen from "@/screens/Login/LoginScreen"
 
 const RootLogin = () => {
     return (
