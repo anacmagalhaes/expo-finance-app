@@ -6,7 +6,7 @@ interface CheckboxProps {
     onChange: (checked: boolean) => void
 }
 
-export const CheckboxComponent = ({ checked, onChange }: CheckboxProps) => {
+export const Checkbox = ({ checked, onChange }: CheckboxProps) => {
     return (
         <Pressable onPress={() => onChange(!checked)}>
             <View className={`w-6 h-6 rounded-md border items-center justify-center

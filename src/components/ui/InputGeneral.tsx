@@ -1,10 +1,10 @@
 import { Text, TextInput, TextInputProps, View } from "react-native"
 
-type InputComponentProps = TextInputProps & {
+type InputGeneralProps = TextInputProps & {
     label: string
 }
 
-export const InputComponent = ({ label, ...rest }: InputComponentProps) => {
+export const InputGeneral = ({ label, ...rest }: InputGeneralProps) => {
     return (
         <View className="gap-2">
             <Text className="font-bold text-[#F3F4F6] pl-2">{label}</Text>

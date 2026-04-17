@@ -8,7 +8,7 @@ interface CardMoneyProps {
     icon: IoniconsName
 }
 
-export const CardMoneyComponent = ({ value, icon }: CardMoneyProps) => {
+export const CardMoney = ({ value, icon }: CardMoneyProps) => {
 
     const formattedValue = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL'}).format(value)
     return (

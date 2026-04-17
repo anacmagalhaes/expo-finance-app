@@ -1,4 +1,4 @@
-import RegisterScreen from "@/screens/Register/registerScreen"
+import RegisterScreen from "@/screens/Register/RegisterScreen"
 
 const RootRegister = () => {
     return (
