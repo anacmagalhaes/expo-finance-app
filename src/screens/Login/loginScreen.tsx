@@ -7,7 +7,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const LoginScreen = () => {
 
     const handleHome = () => {
-        router.replace('/app/(tabs)/dashboard')
+        router.replace('/(app)/(tabs)/dashboard')
     }
 
     return (
